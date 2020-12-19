@@ -179,4 +179,8 @@ class adminController extends Controller
          session()->flash('success','delete success');
          return redirect('/showmasseges');
    }
+   public function test(){
+
+    echo "welcome";
+   }
  }
